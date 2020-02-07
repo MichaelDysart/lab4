@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e9a385d-2b93-4692-9098-b38742a82271" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ProcFile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-webapp.TestWebApp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/webapp.TestWebApp.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +54,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="Maven.lab4 [clean]">
-    <configuration name="TestServer and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in lab4">
+    <configuration name="All in lab4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab4" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="webapp.TestServer" />
-        <pattern testClass="webapp.TestWebApp" />
-      </patterns>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in lab4" />
         <item itemvalue="Maven.lab4 [clean]" />
         <item itemvalue="Maven.lab4 [test]" />
         <item itemvalue="JUnit.TestWebApp" />
         <item itemvalue="JUnit.TestServer" />
-        <item itemvalue="JUnit.TestServer and 1 more" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581107348479</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Tests pass">
+      <created>1581107598611</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581107598611</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -229,7 +235,8 @@
     <MESSAGE value="Edited travis" />
     <MESSAGE value="The tests were failing. So I just removed the tests that failed and now it works :D" />
     <MESSAGE value="Another fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Another fix" />
+    <MESSAGE value="Tests pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests pass" />
   </component>
   <component name="WindowStateProjectService">
     <state x="519" y="34" width="847" height="677" key="#Project_Structure" timestamp="1580503048125">
@@ -240,26 +247,26 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="419" y="201" width="585" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1581107421057" />
-    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1581107348365">
+    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1581107597534">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1581107348365" />
-    <state width="1253" height="168" key="GridCell.Tab.0.bottom" timestamp="1581107557891">
+    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1581107597534" />
+    <state width="1253" height="168" key="GridCell.Tab.0.bottom" timestamp="1581108009784">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="168" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1581107557891" />
-    <state width="1253" height="168" key="GridCell.Tab.0.center" timestamp="1581107557891">
+    <state width="1253" height="168" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1581108009784" />
+    <state width="1253" height="168" key="GridCell.Tab.0.center" timestamp="1581108009784">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="168" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1581107557891" />
-    <state width="1253" height="168" key="GridCell.Tab.0.left" timestamp="1581107557890">
+    <state width="1253" height="168" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1581108009784" />
+    <state width="1253" height="168" key="GridCell.Tab.0.left" timestamp="1581108009783">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="168" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1581107557890" />
-    <state width="1253" height="168" key="GridCell.Tab.0.right" timestamp="1581107557891">
+    <state width="1253" height="168" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1581108009783" />
+    <state width="1253" height="168" key="GridCell.Tab.0.right" timestamp="1581108009784">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="168" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1581107557891" />
+    <state width="1253" height="168" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1581108009784" />
     <state x="422" y="57" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1580504580500">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -272,10 +279,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="344" y="27" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1580502222167" />
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581107356409">
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581107605361">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1581107356409" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1581107605361" />
     <state x="372" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1581101783460">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
