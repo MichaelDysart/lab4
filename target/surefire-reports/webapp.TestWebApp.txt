@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: webapp.TestWebApp
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.632 s <<< FAILURE! - in webapp.TestWebApp
+shouldCreateBook  Time elapsed: 0.07 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: 
+Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint ["PRIMARY KEY ON PUBLIC.ADDRESS_BOOK(ID) [1, 'ABC']"; SQL statement:
+insert into address_book (name, id) values (?, ?) [23505-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at webapp.TestWebApp.shouldCreateBook(TestWebApp.java:25)
+Caused by: org.springframework.dao.DataIntegrityViolationException: 
+could not execute statement; SQL [n/a]; constraint ["PRIMARY KEY ON PUBLIC.ADDRESS_BOOK(ID) [1, 'ABC']"; SQL statement:
+insert into address_book (name, id) values (?, ?) [23505-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at webapp.TestWebApp.shouldCreateBook(TestWebApp.java:25)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at webapp.TestWebApp.shouldCreateBook(TestWebApp.java:25)
+Caused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: 
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ADDRESS_BOOK(ID) [1, 'ABC']"; SQL statement:
+insert into address_book (name, id) values (?, ?) [23505-200]
+	at webapp.TestWebApp.shouldCreateBook(TestWebApp.java:25)
+

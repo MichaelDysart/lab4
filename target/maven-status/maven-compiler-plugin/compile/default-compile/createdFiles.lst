@@ -1,5 +1,5 @@
 buddy/BuddyInfo.class
-webapp/Response.class
 webapp/ServeAddressBookApplication.class
+webapp/Response.class
 buddy/AddressBook.class
 webapp/AddressController.class

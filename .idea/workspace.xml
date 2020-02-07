@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8e9a385d-2b93-4692-9098-b38742a82271" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webapp/TestServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webapp/TestServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webapp/TestWebApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webapp/TestWebApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/webapp/TestServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webapp/TestServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/webapp/TestWebApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webapp/TestWebApp.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +71,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestServer and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab4" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="webapp.TestServer" />
+        <pattern testClass="webapp.TestWebApp" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestServer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab4" />
       <extension name="coverage">
@@ -99,6 +115,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestServer" />
+        <item itemvalue="JUnit.TestServer and 1 more" />
         <item itemvalue="JUnit.TestWebApp" />
         <item itemvalue="Application.ServeAddressBookApplication" />
       </list>
@@ -148,40 +165,48 @@
       <option name="project" value="LOCAL" />
       <updated>1581104036513</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Edited travis">
+      <created>1581104855142</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581104855142</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="New tests and travis cl" />
     <MESSAGE value="Renamed travis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed travis" />
+    <MESSAGE value="Edited travis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited travis" />
   </component>
   <component name="WindowStateProjectService">
     <state x="519" y="34" width="847" height="677" key="#Project_Structure" timestamp="1580503048125">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="519" y="34" width="847" height="677" key="#Project_Structure/67.27.1299.741@67.27.1299.741" timestamp="1580503048125" />
-    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1581104036358">
+    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1581104854934">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1581104036358" />
-    <state width="1253" height="407" key="GridCell.Tab.0.bottom" timestamp="1581104210799">
+    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1581104854934" />
+    <state width="1253" height="239" key="GridCell.Tab.0.bottom" timestamp="1581106268612">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="407" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1581104210799" />
-    <state width="1253" height="407" key="GridCell.Tab.0.center" timestamp="1581104210798">
+    <state width="1253" height="239" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1581106268612" />
+    <state width="1253" height="239" key="GridCell.Tab.0.center" timestamp="1581106268612">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="407" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1581104210798" />
-    <state width="1253" height="407" key="GridCell.Tab.0.left" timestamp="1581104210797">
+    <state width="1253" height="239" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1581106268612" />
+    <state width="1253" height="239" key="GridCell.Tab.0.left" timestamp="1581106268611">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="407" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1581104210797" />
-    <state width="1253" height="407" key="GridCell.Tab.0.right" timestamp="1581104210798">
+    <state width="1253" height="239" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1581106268611" />
+    <state width="1253" height="239" key="GridCell.Tab.0.right" timestamp="1581106268612">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="407" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1581104210798" />
+    <state width="1253" height="239" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1581106268612" />
     <state x="422" y="57" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1580504580500">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -194,10 +219,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="344" y="27" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1580502222167" />
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581104046154">
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581104864208">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1581104046154" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1581104864208" />
     <state x="372" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1581101783460">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
