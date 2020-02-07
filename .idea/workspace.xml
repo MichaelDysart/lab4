@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8e9a385d-2b93-4692-9098-b38742a82271" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-webapp.TestWebApp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/webapp.TestWebApp.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581107598611</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Heroko">
+      <created>1581108115673</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581108115673</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -236,7 +240,8 @@
     <MESSAGE value="The tests were failing. So I just removed the tests that failed and now it works :D" />
     <MESSAGE value="Another fix" />
     <MESSAGE value="Tests pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests pass" />
+    <MESSAGE value="Heroko" />
+    <option name="LAST_COMMIT_MESSAGE" value="Heroko" />
   </component>
   <component name="WindowStateProjectService">
     <state x="519" y="34" width="847" height="677" key="#Project_Structure" timestamp="1580503048125">
@@ -247,10 +252,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="419" y="201" width="585" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1581107421057" />
-    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1581107597534">
+    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1581108115540">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1581107597534" />
+    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1581108115540" />
     <state width="1253" height="168" key="GridCell.Tab.0.bottom" timestamp="1581108009784">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -279,10 +284,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="344" y="27" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1580502222167" />
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581107605361">
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581108124212">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1581107605361" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1581108124212" />
     <state x="372" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1581101783460">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
