@@ -6,5 +6,8 @@
 </head>
 <body>
 <p th:text="'Address book, ' + ${book} + '!'"/>
+<form action="#" th:action="@{/createHTML}" method="get">
+    <p>Name: <input type="text" th:name="bookName"/></p>
+</form>
 </body>
 </html>

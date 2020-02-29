@@ -8,7 +8,6 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 @EntityScan(basePackages = {"buddy"})
 public class ServeAddressBookApplication {
     public static void main(String[] args) {
-
         SpringApplication.run(webapp.ServeAddressBookApplication.class, args);
     }
 }

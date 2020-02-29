@@ -5,6 +5,13 @@
     <title>View an address book</title>
 </head>
 <body>
-<p th:text="'Address book, ' + ${book} + '!'"/>
+<p th:text="'Address book, ' + ${bookName} + ': ' + ${book} + '!'"/>
+<form action="#" th:action="@{/addHTML}" method="post">
+    <p>BookName: <input type="text" th:name="bookName" th:value="''+${bookName}+''"/></p>
+    <p>Name: <input type="text" th:name="name"/></p>
+    <p>Address: <input type="text" th:name="address"/></p>
+    <p>PhoneNumber: <input type="text" th:name="phoneNumber"/></p>
+    <p><input type="submit" value="Submit"/> <input type="reset" value="Reset"/></p>
+</form>
 </body>
 </html>

@@ -47,7 +47,7 @@ public class BuddyInfo {
     public boolean equals(Object obj) {
         if (obj instanceof BuddyInfo) {
             BuddyInfo nb = (BuddyInfo) obj;
-            return nb.name == this.name && nb.address == this.address && nb.phoneNumber == this.phoneNumber;
+            return nb.name.equals(this.name) && nb.address.equals(this.address) && nb.phoneNumber.equals(this.phoneNumber);
         }
         return false;
     }
